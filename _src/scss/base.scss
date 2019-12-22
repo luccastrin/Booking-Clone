@@ -1,0 +1,32 @@
+/***************************************
+*VARIABLES
+*/
+$background-blue: #003580;
+$white: #fff;
+
+/***************************************
+*MIXINS
+*/
+
+/***************************************
+*GLOBAL
+*/
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1054px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
