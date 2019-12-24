@@ -7,7 +7,7 @@
 #header {
     float: left;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 10px;
     background-color: $background-blue;
 
     .nav-first {
@@ -16,29 +16,41 @@
 
         img {
             float: left;
-            width: 15%;
+            width: 14%;
         }
 
         ul {
             float: right;
-            text-align: right;
             border: 1px solid green;
+
+            li:nth-child(2) {
+
+                img {
+                    width: 18px;
+                }
+            }
+
+            li:nth-child(3) {
+                border: 1px solid $white;
+                
+
+                img {
+                    width: 20px;
+                    margin-right: 10px;
+                }
+            }
 
             li {
                 display: inline-block;
-                padding: 0 10px;
+                padding: 5px 10px;
                 margin: 0 5px;
                 border: 1px solid red;
+                border-radius: $border-radius;
 
                 a {
-                    display: inline-block;
                     color: $white;
                     font-size: 12px;
                     padding: 0 0 5px 0;
-
-                    img {
-                        width: 20px;
-                    }
                 }
             }
         }
@@ -47,5 +59,32 @@
     .nav-second {
         float: left;
         width: 100%;
+
+        ul {
+            float: left;
+            width: 100%;
+
+
+            li {
+                float: left;
+                width: 20%;
+                margin-top: 10px;
+                padding: 15px 10px;
+                border: 1px solid red;
+                opacity: 0.8;
+
+                img {
+                    float: left;
+                    width: 15%;
+                }
+
+                span {
+                    float: left;
+                    width: 85%;
+                    padding: 3px 0 0 12px;
+                    color: $white;
+                }
+            }
+        }
     }
 }

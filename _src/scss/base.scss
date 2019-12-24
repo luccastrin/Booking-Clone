@@ -3,6 +3,7 @@
 */
 $background-blue: #003580;
 $white: #fff;
+$border-radius: 3px;
 
 /***************************************
 *MIXINS
@@ -18,8 +19,12 @@ $white: #fff;
     box-sizing: border-box;
 }
 
+body {
+    text-align: left;
+}
+
 .container {
-    width: 1054px;
+    width: 1100px;
     margin: 0 auto;
 }
 
@@ -29,4 +34,8 @@ li {
 
 a {
     text-decoration: none;
+}
+
+span {
+    font-size: 14px;
 }
